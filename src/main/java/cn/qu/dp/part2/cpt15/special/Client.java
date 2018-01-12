@@ -11,6 +11,14 @@ public class Client {
 		invoker.setCommand(command);
 		
 		invoker.action();
+		
+		//
+		System.out.println();
+		command = new AddRequirementCommand();
+		
+		invoker.setCommand(command);
+		
+		invoker.action();
 	}
 
 }
